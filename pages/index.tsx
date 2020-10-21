@@ -9,24 +9,55 @@ const Row = styled.div`
   margin: 8px 8px 8px 8px;
   align-content: space-between;
 `
+const FirstPage = styled.div`
+  height: 100vh;
+  width: 100vw;
+  background-color: #000D0F;
+`
+const Line1 = styled.h1`
+padding-left:1vw;
+  position: absolute;
+  color: white;
+  text-align:center;
+  font-size: 16vw;
+`
+const Line1Small = styled.h1`
+  padding-top: 0;
+  position: absolute;
+  color: #faa866;
+  text-align:center;
+  font-size: 17vw;
+`
+const Line2 = styled.h1`
+  padding-left:1vw;
+  position: absolute;
+  color: white;
+  text-align:center;
+  font-size: 11vw;
+`
+const Line2Small = styled.h1`
+  padding-top: 0;
+  position: absolute;
+  color: #028b9b;
+  text-align:center;
+  font-size: 12vw;
+`
 
 const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ELE206 Lab 4</title>
+        <title>Thomas DC | Home</title>
         <link rel="icon" href="/PUwhite.svg" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}> Title </h1>
-      </main>
+      <main>
+        <FirstPage>
+          <div style={{ paddingTop: "5vh", paddingLeft: "10vw" }}><Line1Small>Thomas</Line1Small><Line1>Thomas  </Line1></div>
 
-      <footer className={styles.footer}>
-        <a> ELE206 Fall 2020
-          <img src="/PU.svg" alt="Princeton Logo" className={styles.logo} />
-        </a>
-      </footer>
+          <div style={{ paddingTop: "50vh", paddingLeft: "10vw" }}><Line2Small>Dhome-Casanova</Line2Small><Line2>Dhome-Casanova</Line2></div>
+        </FirstPage>
+      </main>
     </div >
   )
 }
