@@ -34,6 +34,7 @@ const Line2 = styled.h1`
   color: white;
   text-align:center;
   font-size: 11vw;
+  letter-spacing: 4px;
 `
 const Line2Small = styled.h1`
   padding-top: 0;
@@ -41,6 +42,7 @@ const Line2Small = styled.h1`
   color: #028b9b;
   text-align:center;
   font-size: 12vw;
+  letter-spacing: 100%;
 `
 
 const Home = () => {
