@@ -2,10 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import styles from './secondpage.module.css'
 import { FaChevronRight } from 'react-icons/fa';
-import { Icon } from '@iconify/react';
-import northStar16 from '@iconify-icons/octicon/north-star-16';
-import markGithub16 from '@iconify-icons/octicon/mark-github-16';
-import browser16 from '@iconify-icons/octicon/browser-16';
+import { GoRuby, GoMarkGithub, GoDeviceDesktop } from 'react-icons/go'
 import punc from '../../public/punc.png'
 import surelight from '../../public/surelight.png'
 import mlplanner from '../../public/mlplanner.png'
@@ -26,11 +23,8 @@ const RightArrow = styled(FaChevronRight)`
   opacity: 50%
 `
 
-const IconifyIcon = styled(Icon)`
-  color: white;
-  width: 2em;
-  height: 2em;
-  margin-right: 16px;
+const StatsHeader = styled.h2`
+  margin-left: 16px;
 `
 
 const StatsBox = styled.div`
@@ -98,9 +92,9 @@ const SecondPage = () => {
       </section>
 
       <StatsBox>
-        <StatsRow><IconifyIcon icon={browser16} /><h2>10,000 views</h2></StatsRow>
-        <StatsRow><IconifyIcon icon={markGithub16} /><h2>332 commits</h2></StatsRow>
-        <StatsRow><IconifyIcon icon={northStar16} /><h2>Arctic Vault Contributor</h2></StatsRow>
+        <StatsRow><GoDeviceDesktop color="white" size="2em" /><StatsHeader>10,000 views</StatsHeader></StatsRow>
+        <StatsRow><GoMarkGithub color="white" size="2em" /><StatsHeader>332 commits</StatsHeader></StatsRow>
+        <StatsRow><GoRuby color="white" size="2em" /><StatsHeader>Arctic Vault Contributor</StatsHeader></StatsRow>
       </StatsBox>
 
     </>
