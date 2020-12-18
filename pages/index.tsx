@@ -2,47 +2,54 @@ import React from 'react'
 import styled from 'styled-components'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
+import Typical from 'react-typical'
+import headshot from './../public/face.png'
+import { Link, animateScroll as scroll } from "react-scroll";
+import { FaPaperPlane } from 'react-icons/fa';
 
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 8px 8px 8px 8px;
-  align-content: space-between;
-`
-const FirstPage = styled.div`
+
+const Page = styled.div`
   height: 100vh;
   width: 100vw;
-  background-color: #000D0F;
 `
-const Line1 = styled.h1`
-padding-left:1vw;
+const FirstCentreText = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto 28vw
+`
+
+const Headshot = styled.img`
   position: absolute;
+  width: 40vw;
+  bottom: 0;
+  right: 0;
+`
+
+const LearnMore = styled.button`
+  margin-top: 32px;
   color: white;
-  text-align:center;
-  font-size: 16vw;
+  background-color: transparent;
+  font-size: 2em;
+  padding: 8px 32px 8px 32px;
+  border: 3px solid white;
+  border-radius: 30px;
+  width: auto;
 `
-const Line1Small = styled.h1`
-  padding-top: 0;
-  position: absolute;
-  color: #faa866;
-  text-align:center;
-  font-size: 17vw;
-`
-const Line2 = styled.h1`
-  padding-left:1vw;
-  position: absolute;
-  color: white;
-  text-align:center;
-  font-size: 11vw;
-  letter-spacing: 4px;
-`
-const Line2Small = styled.h1`
-  padding-top: 0;
-  position: absolute;
-  color: #028b9b;
-  text-align:center;
-  font-size: 12vw;
-  letter-spacing: 100%;
+
+const SendEmail = styled.button`
+  margin-top: 32px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 99;
 `
 
 const Home = () => {
@@ -54,12 +61,35 @@ const Home = () => {
       </Head>
 
       <main>
-        <FirstPage>
-          <div style={{ paddingTop: "5vh", paddingLeft: "10vw" }}><Line1Small>Thomas</Line1Small><Line1>Thomas  </Line1></div>
+        <Page>
+          <FirstCentreText>
+            <h1 className="inside">Thomas</h1>
+            <h1 ><span className="inside">Dhome-Casanova</span></h1>
 
-          <div style={{ paddingTop: "50vh", paddingLeft: "10vw" }}><Line2Small>Dhome-Casanova</Line2Small><Line2>Dhome-Casanova</Line2></div>
-        </FirstPage>
+            <p>I'm <Typical
+              steps={['a developer', 3000, 'an engineer', 3000, 'an adventurer', 3000]}
+              loop={Infinity}
+              wrapper="b"
+            />
+            </p>
+            <Link
+              activeClass="active"
+              to="section1"
+              spy={true}
+              smooth={true}
+              duration={500}
+            ><LearnMore>Learn More</LearnMore></Link>
+          </FirstCentreText>
+          <SendEmail>
+            <a href='mailto:tmd4@princeton.edu'><FaPaperPlane color="#17141d" size="20px" /></a>
+          </SendEmail>
+          <Headshot src={headshot} />
+        </Page>
+        <Page id="section1">
+
+        </Page>
       </main>
+
     </div >
   )
 }

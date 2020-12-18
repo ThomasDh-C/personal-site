@@ -1,4 +1,7 @@
 @import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Karla:wght@300&display=swap');
+
 @font-face {
   font-family: 'Brux';
   src: local('Brux'), 
@@ -20,15 +23,37 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Rustico', 'Rustico','Atmosphere' ;
+  background-color: #17141d;
+  color: white;
+  font-family: 'Archivo', sans-serif;;
+  /* font-family: 'Rustico', 'Rustico','Atmosphere' ; */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rustico';
-  
+  color: white;
 }
 
-a {
-  color: inherit;
+h1 {
+  width: fit-content;
+  font-size: 5em;
+  margin-bottom: 0px;
+  line-height: 1em;
+}
+.inside {
   text-decoration: none;
+  padding: 5px 5px 1px 0px;
+
+  background-position-y: -0%;
+  background-image: linear-gradient( transparent 50%, gold 50%);
+  transition: background 500ms ease;
+  background-size: auto 175%;
+}
+.inside:hover{
+  background-position-y: 100%;
+}
+
+p {
+  margin-top: 32px;
+  font-family:'Karla', sans-serif;
+  font-size: 3em;
 }
