@@ -2,11 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-import Typical from 'react-typical'
-import headshot from './../public/face.png'
-import { Link, animateScroll as scroll } from "react-scroll";
-import { FaPaperPlane } from 'react-icons/fa';
-
+import FirstPage from '../components/firstPage/firstpage'
 
 const Page = styled.div`
   height: 100vh;
@@ -62,28 +58,7 @@ const Home = () => {
 
       <main>
         <Page>
-          <FirstCentreText>
-            <h1 className="inside">Thomas</h1>
-            <h1 ><span className="inside">Dhome-Casanova</span></h1>
-
-            <p>I'm <Typical
-              steps={['a developer', 3000, 'an engineer', 3000, 'an adventurer', 3000]}
-              loop={Infinity}
-              wrapper="b"
-            />
-            </p>
-            <Link
-              activeClass="active"
-              to="section1"
-              spy={true}
-              smooth={true}
-              duration={500}
-            ><LearnMore>Learn More</LearnMore></Link>
-          </FirstCentreText>
-          <SendEmail>
-            <a href='mailto:tmd4@princeton.edu'><FaPaperPlane color="#17141d" size="20px" /></a>
-          </SendEmail>
-          <Headshot src={headshot} />
+          <FirstPage />
         </Page>
         <Page id="section1">
 
