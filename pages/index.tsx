@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import FirstPage from '../components/firstPage/firstpage'
-import SecondPage from '../components/developer/secondpage'
+import Developer from '../components/developer/developer'
 import Engineer from '../components/engineer/engineer'
 const Page = styled.div`
   height: 100vh;
@@ -23,8 +23,11 @@ const Home = () => {
         <Page>
           <FirstPage />
         </Page>
-        <SecondPage />
+        <Developer />
         <Engineer />
+        <Page style={{marginTop:'120vh'}}>
+          <Developer />
+        </Page>
 
       </main>
 

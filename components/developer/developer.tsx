@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import styles from './secondpage.module.css'
+import styles from './developer.module.css'
 import { FaChevronRight } from 'react-icons/fa';
 import { GoRuby, GoMarkGithub, GoDeviceDesktop } from 'react-icons/go'
 import punc from '../../public/punc.png'
