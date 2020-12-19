@@ -5,6 +5,7 @@ import Head from 'next/head'
 import FirstPage from '../components/firstPage/firstpage'
 import Developer from '../components/developer/developer'
 import Engineer from '../components/engineer/engineer'
+import Adventurer from '../components/adventurer'
 const Page = styled.div`
   height: 100vh;
   width: 100vw;
@@ -26,7 +27,7 @@ const Home = () => {
         <Developer />
         <Engineer />
         <Page style={{marginTop:'120vh'}}>
-          <Developer />
+          <Adventurer />
         </Page>
 
       </main>

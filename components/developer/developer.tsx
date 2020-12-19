@@ -42,7 +42,7 @@ const Image = styled.img`
   border-radius: 3px;
   object-fit: cover;
 `
-const SecondPage = () => {
+const Developer = () => {
   return (
     <div id="section1" style={{ position: 'relative' }}>
       <BackgroundText>Developer</BackgroundText>
@@ -102,4 +102,4 @@ const SecondPage = () => {
   )
 }
 
-export default SecondPage;
+export default Developer;
