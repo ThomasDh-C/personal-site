@@ -5,7 +5,6 @@ import Rocket from '../../public/rocketbright.svg'
 import Chip from '../../public/chip.svg'
 import Surelight from '../../public/surelighticon.svg'
 import Princeton from '../../public/PUwhite.svg'
-import { Divider } from 'antd';
 
 
 const BackgroundText = styled.h1`
