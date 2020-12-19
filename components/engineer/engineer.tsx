@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import princeton from '../../public/PU.svg'
+import Princeton from '../../public/PU.svg'
 
 const BackgroundText = styled.h1`
   font-size: 15vw;
@@ -18,7 +18,8 @@ const Engineer = () => {
     return (
         <>
             <BackgroundText>Engineer</BackgroundText>
-            <Logo src={princeton}/>
+            {/* <Logo src={princeton}/> */}
+            <Princeton fill="white" />
         </>
     )
 }
