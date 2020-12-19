@@ -24,9 +24,8 @@ const Home = () => {
           <FirstPage />
         </Page>
         <SecondPage />
-        <Page>
-          <Engineer />
-        </Page>
+        <Engineer />
+
       </main>
 
     </div >

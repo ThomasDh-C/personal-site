@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const HighlightLabel = (props) => {
 
-    const ThinH1 = styled.h1`
+    const ThinH1 = styled.h2`
         margin-bottom: 0px;
         line-height: 1em;
     `
