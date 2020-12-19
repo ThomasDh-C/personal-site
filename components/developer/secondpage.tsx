@@ -44,7 +44,7 @@ const Image = styled.img`
 `
 const SecondPage = () => {
   return (
-    <>
+    <div id="section1" style={{ position: 'relative' }}>
       <BackgroundText>Developer</BackgroundText>
       <RightArrow color="gold" size="30vw" />
 
@@ -97,7 +97,7 @@ const SecondPage = () => {
         <StatsRow><GoRuby color="white" size="2em" /><StatsHeader>Arctic Vault Contributor</StatsHeader></StatsRow>
       </StatsBox>
 
-    </>
+    </div>
 
   )
 }

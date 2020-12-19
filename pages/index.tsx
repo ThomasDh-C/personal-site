@@ -23,9 +23,7 @@ const Home = () => {
         <Page>
           <FirstPage />
         </Page>
-        <Page id="section1">
-          <SecondPage />
-        </Page>
+        <SecondPage />
         <Page>
           <Engineer />
         </Page>
