@@ -6,7 +6,7 @@ import { FaChevronRight } from 'react-icons/fa';
 import { GoRuby, GoMarkGithub, GoDeviceDesktop } from 'react-icons/go'
 import punc from '../../public/punc.png'
 import surelight from '../../public/surelight.png'
-import mlplanner from '../../public/mlplanner.png'
+import mlplanner from '../../public/MLplanner.png'
 
 
 const RightArrow = styled(FaChevronRight)`
