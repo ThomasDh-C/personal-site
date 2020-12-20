@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import BackgroundText from '../backgroundtext'
 import HighlightLabel from './highlightLabel'
 import Rocket from '../../public/rocketbright.svg'
 import Chip from '../../public/chip.svg'
@@ -7,14 +8,6 @@ import Surelight from '../../public/surelighticon.svg'
 import Princeton from '../../public/PUwhite.svg'
 
 
-const BackgroundText = styled.h1`
-  font-size: 15vw;
-  position: absolute;
-  left:28vw;
-  top:0;
-  z-index: -99;
-  opacity: 0.5;
-`
 const SurelightStyled = styled(Surelight)`
     height: 100%;
     margin-left: 16px;
@@ -114,7 +107,7 @@ const JobsColumn = styled.div`
 const Engineer = () => {
     return (
         <div style={{ position: 'relative' }}>
-            <BackgroundText>Engineer</BackgroundText>
+            <BackgroundText text="Engineer" />
             <SurelightRow>
                 <SurelightLabel label="Safest Bike light" />
                 <SurelightStyled />

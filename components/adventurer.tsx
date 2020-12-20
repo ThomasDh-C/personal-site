@@ -1,25 +1,67 @@
 import React from 'react'
 import styled from 'styled-components'
 import BasicThing from '../public/climbing/bouldering.svg'
-
-const BackgroundText = styled.h1`
-  font-size: 15vw;
-  position: absolute;
-  left:28vw;
-  top:0;
-  z-index: -99;
-  opacity: 0.5;
-`
+import BackgroundText from './backgroundtext'
 
 const CustomBasic = styled(BasicThing)`
+  position: absolute;
+  top: 10vh;
   width: 100vw;
-  z-index:-100;
+  z-index:-99;
 `
+
+const FrostedDiv = styled.div`
+  background-color: rgba(255, 255, 255, .15);  
+  // background-color: rgba(255, 215, 0, .15);  
+  backdrop-filter: blur(5px);
+  position: absolute;
+  border-radius: 1em;
+  box-shadow: 2px 2px 5px gold;
+  padding: 32px;
+`
+
+const TennisContainer = styled(FrostedDiv)`
+  top: 23vw;
+  left: 20vw;
+  
+`
+const ClimberContainer = styled(FrostedDiv)`
+  top: 35vw;
+  left: 40vw;
+`
+
+const BackpackerContainer = styled(FrostedDiv)`
+  top: 54vw;
+  left: 72vw;
+`
+
+const ChefContainer = styled(FrostedDiv)`
+  top: 60vw;
+  left: 10vw;
+`
+
+const Labels = styled.h2`
+  margin-bottom:0;
+`
+
+
 const Adventurer = () => {
   return (
     <div style={{ position: 'relative' }}>
-      <BackgroundText>Adventurer</BackgroundText>
+      <BackgroundText text="Adventurer" />
       <CustomBasic />
+      <TennisContainer>
+        <Labels>Tennis</Labels>
+      </TennisContainer>
+      <ClimberContainer>
+        <Labels>Climber</Labels>
+      </ClimberContainer>
+      <BackpackerContainer>
+        <Labels>Backpacker</Labels>
+      </BackpackerContainer>
+      <ChefContainer>
+        <Labels>Chef</Labels>
+      </ChefContainer>
     </div>
 
   )

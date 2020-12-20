@@ -1,20 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import styles from './developer.module.css'
+import BackgroundText from '../backgroundtext'
 import { FaChevronRight } from 'react-icons/fa';
 import { GoRuby, GoMarkGithub, GoDeviceDesktop } from 'react-icons/go'
 import punc from '../../public/punc.png'
 import surelight from '../../public/surelight.png'
 import mlplanner from '../../public/mlplanner.png'
 
-const BackgroundText = styled.h1`
-  font-size: 15vw;
-  position: absolute;
-  left:28vw;
-  top:0;
-  z-index: -99;
-  opacity: 0.5;
-`
 
 const RightArrow = styled(FaChevronRight)`
   position: absolute;
@@ -45,7 +38,7 @@ const Image = styled.img`
 const Developer = () => {
   return (
     <div id="section1" style={{ position: 'relative' }}>
-      <BackgroundText>Developer</BackgroundText>
+      <BackgroundText text="Developer" />
       <RightArrow color="gold" size="30vw" />
 
       <section className={styles.cardlist}>
