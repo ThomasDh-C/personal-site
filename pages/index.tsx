@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/index.module.css'
 import Head from 'next/head'
 import FirstPage from '../components/firstPage/firstpage'
 import Developer from '../components/developer/developer'
@@ -11,6 +11,7 @@ const Page = styled.div`
   width: 100vw;
   position: relative;
 `
+
 
 const Home = () => {
   return (
@@ -26,12 +27,18 @@ const Home = () => {
         </Page>
         <Developer />
         <Engineer />
-        <Page style={{marginTop:'120vh'}}>
+        <div style={{ position: 'relative', marginTop: '120vh', marginBottom: '32px' }}>
           <Adventurer />
-        </Page>
+        </div>
 
       </main>
 
+      <footer className={styles.footer}>
+        <p>Thomas Dhome-Casanova</p>
+        <a> ELE206 Fall 2020
+          <img src="/PU.svg" alt="Princeton Logo" className={styles.logo} />
+        </a>
+      </footer>
     </div >
   )
 }

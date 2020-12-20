@@ -4,8 +4,7 @@ import BasicThing from '../public/climbing/bouldering.svg'
 import BackgroundText from './backgroundtext'
 
 const CustomBasic = styled(BasicThing)`
-  position: absolute;
-  top: 10vh;
+  margin-top: 10vw;
   width: 100vw;
   z-index:-99;
 `
@@ -47,7 +46,7 @@ const Labels = styled.h2`
 
 const Adventurer = () => {
   return (
-    <div style={{ position: 'relative' }}>
+    < >
       <BackgroundText text="Adventurer" />
       <CustomBasic />
       <TennisContainer>
@@ -62,7 +61,7 @@ const Adventurer = () => {
       <ChefContainer>
         <Labels>Chef</Labels>
       </ChefContainer>
-    </div>
+    </>
 
   )
 }
