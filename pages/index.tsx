@@ -6,12 +6,16 @@ import FirstPage from '../components/firstPage/firstpage'
 import Developer from '../components/developer/developer'
 import Engineer from '../components/engineer/engineer'
 import Adventurer from '../components/adventurer'
+import { FaRegCopyright } from 'react-icons/fa'
 const Page = styled.div`
   height: 100vh;
   width: 100vw;
   position: relative;
 `
-
+const FooterText = styled.p`
+  font-size: 1em;
+  padding-top: 16px;
+`
 
 const Home = () => {
   return (
@@ -34,10 +38,7 @@ const Home = () => {
       </main>
 
       <footer className={styles.footer}>
-        <p>Thomas Dhome-Casanova</p>
-        <a> ELE206 Fall 2020
-          <img src="/PU.svg" alt="Princeton Logo" className={styles.logo} />
-        </a>
+        <FooterText><FaRegCopyright style={{ marginBottom: '-.2em', marginRight: '8px' }} /> Thomas Dhome-Casanova 2020</FooterText>
       </footer>
     </div >
   )
