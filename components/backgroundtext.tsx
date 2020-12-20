@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Text = styled.h1`
-  font-size: 14.5vw;
+  font-size: 14vw;
   position: absolute;
   left: 28vw;
   top: 0;

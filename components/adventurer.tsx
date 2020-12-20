@@ -10,8 +10,7 @@ const CustomBasic = styled(BasicThing)`
 `
 
 const FrostedDiv = styled.div`
-  background-color: rgba(255, 255, 255, .15);  
-  // background-color: rgba(255, 215, 0, .15);  
+  background-color: rgba(255, 255, 255, .15);
   backdrop-filter: blur(5px);
   position: absolute;
   border-radius: 1em;
