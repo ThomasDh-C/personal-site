@@ -31,7 +31,7 @@ const ClimberContainer = styled(FrostedDiv)`
 
 const BackpackerContainer = styled(FrostedDiv)`
   top: 54vw;
-  left: 72vw;
+  right: 10vw;
 `
 
 const ChefContainer = styled(FrostedDiv)`

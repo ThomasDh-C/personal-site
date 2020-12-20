@@ -19,7 +19,7 @@ const FooterText = styled.p`
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <div >
       <Head>
         <title>Thomas DC | Home</title>
         <link rel="icon" href="/PUwhite.svg" />

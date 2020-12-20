@@ -79,7 +79,8 @@ const FirstPage = () => {
       <SendEmail>
         <a href='mailto:tmd4@princeton.edu'><FaPaperPlane color="#17141d" size="20px" /></a>
       </SendEmail>
-      <Headshot src={headshot} /></>
+      <Headshot src={headshot} />
+    </>
 
   )
 }
