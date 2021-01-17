@@ -10,10 +10,12 @@ const SidebarWrapper = styled.div`
     height: 100%;
     
     flex-direction: column;
-    border-left: 1px solid;
-    border-radius: 15px;
-    transition: 0.8s ease;
-    
+    border-left: 2px solid;
+    border-left-color: gold;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 0.7s ease;
+
 `
 
 const ToggleMenuButton = styled.button`
@@ -29,6 +31,7 @@ const ToggleMenuButton = styled.button`
 
     z-index: 10;
     border-color: #17141d;
+    background-color: gold;
     outline: none;
 `
 
