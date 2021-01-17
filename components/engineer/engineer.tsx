@@ -109,12 +109,13 @@ const Engineer = () => {
         <div style={{ position: 'relative', width: '100%' }}>
             <BackgroundText text="Engineer" />
             <SurelightRow>
-                <SurelightLabel label="Safest Bike light" />
+                <a href="https://www.kickstarter.com/projects/benray/surelight-the-safest-bike-light"><SurelightLabel label="Safest Bike light" /></a>
                 <SurelightStyled />
+
             </SurelightRow>
             <ChipRow>
                 <ChipStyled />
-                <HighlightLabel label="8-bit FPGA design" />
+                <a href="https://github.com/ThomasDh-C/VerilogSimonViewer"><HighlightLabel label="8-bit FPGA design" /></a>
             </ChipRow>
             <RocketRow>
                 <RocketStyled />

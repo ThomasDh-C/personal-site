@@ -44,7 +44,7 @@ const Developer = () => {
       <section className={styles.cardlist}>
         <article className={styles.card}>
           <header className={styles.cardheader}>
-            <p>December 2020</p>
+            <p>January 2020</p>
             <h2>Machine Learning App for Courses</h2>
           </header>
           <Image src={mlplanner} />
@@ -56,7 +56,7 @@ const Developer = () => {
         <article className={styles.card}>
           <header className={styles.cardheader}>
             <p>November 2020</p>
-            <h2>SureLight Tech Kickstarter</h2>
+            <a href="https://www.kickstarter.com/projects/benray/surelight-the-safest-bike-light"><h2>SureLight Tech Kickstarter</h2></a>
           </header>
           <div>
             <Image src={surelight} />
@@ -71,7 +71,7 @@ const Developer = () => {
         <article className={styles.card}>
           <header className={styles.cardheader}>
             <p>October 2020</p>
-            <h2>8-bit TA Processor debugger app</h2>
+            <a href="https://github.com/ThomasDh-C/VerilogPUNCViewer"><h2>8-bit TA Processor debugger app</h2></a>
           </header>
           <div>
             <Image src={punc} />
