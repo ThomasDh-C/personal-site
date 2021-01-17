@@ -24,6 +24,7 @@ const Home = () => {
     <div >
       <Head>
         <title>Thomas DC | Home</title>
+        <meta name="Home page" content="Thomas Dhome-Casanova's portfolio website"/>
         <link rel="icon" href="/PUwhite.svg" />
       </Head>
 
