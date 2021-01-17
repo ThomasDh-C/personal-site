@@ -12,6 +12,7 @@ const Page = styled.div`
   height: 100vh;
   width: 100%;
   position: relative;
+  overflow: hidden;
 `
 const FooterText = styled.p`
   font-size: 1em;

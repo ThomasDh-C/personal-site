@@ -7,6 +7,7 @@ import { Link } from "react-scroll";
 import { FaPaperPlane } from 'react-icons/fa';
 import Sidebar from '../sidebar/sidebar'
 
+
 const Name = styled.h1`
   margin-bottom: 0px;
   line-height: 1em;
@@ -59,17 +60,22 @@ const SendEmail = styled.button`
 const FirstPage = () => {
   return (
     <>
-      {/* <Sidebar width="-100%" height="100%" /> */}
       <FirstCentreText>
-        <Name className={styles.inside}>Thomas</Name>
-        <Name ><span className={styles.inside}>Dhome-Casanova</span></Name>
 
-        <Description>I'm <Typical
-          steps={['a developer', 3000, 'an engineer', 3000, 'an adventurer', 3000]}
-          loop={Infinity}
-          wrapper="b"
-        />
-        </Description>
+        <div style={{ position: 'relative' }}>
+          <Sidebar />
+          <Name className={styles.inside}>Thomas</Name>
+          <Name ><span className={styles.inside}>Dhome-Casanova</span></Name>
+
+          <Description>I'm <Typical
+            steps={['a developer', 3000, 'an engineer', 3000, 'an adventurer', 3000]}
+            loop={Infinity}
+            wrapper="b"
+          />
+          </Description>
+        </div>
+
+
         <Link
           activeClass="active"
           to="section1"
