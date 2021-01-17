@@ -45,6 +45,7 @@ const LearnMore = styled.button`
 
 const SendEmail = styled.button`
   margin-top: 32px;
+  outline: none;
   background-color: white;
   border: 1px solid white;
   border-radius: 30px;

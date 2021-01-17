@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import BasicThing from '../public/climbing/bouldering.svg'
+import Bouldering from '../public/climbing/bouldering.svg'
 import BackgroundText from './backgroundtext'
 
-const CustomBasic = styled(BasicThing)`
+const LargeBouldering = styled(Bouldering)`
   margin-top: 10vw;
   width: 100%;
   z-index:-99;
@@ -39,7 +39,7 @@ const ChefContainer = styled(FrostedDiv)`
 `
 
 const Labels = styled.h2`
-  margin-bottom:0;
+  margin-bottom: 0;
 `
 
 
@@ -47,7 +47,7 @@ const Adventurer = () => {
   return (
     <>
       <BackgroundText text="Adventurer" />
-      <CustomBasic />
+      <LargeBouldering />
       <TennisContainer>
         <Labels>Tennis</Labels>
       </TennisContainer>

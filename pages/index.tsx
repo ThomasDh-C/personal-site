@@ -36,7 +36,7 @@ const Home = () => {
         <div style={{ position: 'relative', marginTop: '120vh', marginBottom: '32px', width: '100%' }}>
           <Adventurer />
         </div>
-
+        <div style={{ width: '100%', height: '100px' }}></div>
       </main>
 
       <footer className={styles.footer}>

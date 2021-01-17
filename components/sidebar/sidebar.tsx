@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components'
-import { GoRuby, GoMarkGithub, GoDeviceDesktop } from 'react-icons/go'
+import { GoMarkGithub } from 'react-icons/go'
 import { FaLinkedin } from 'react-icons/fa'
 import Princeton from '../../public/PUwhite.svg'
 import HighlightLabel from '../engineer/highlightLabel'
@@ -13,6 +13,7 @@ const SidebarWrapper = styled.div`
     border-left: 1px solid;
     border-radius: 15px;
     transition: 0.8s ease;
+    
 `
 
 const ToggleMenuButton = styled.button`
@@ -54,16 +55,16 @@ const SmallPrinceton = styled(Princeton)`
 `
 
 export const Sidebar = () => {
-    const [xPosition, setX] = React.useState('-50%')
+    const [xPosition, setX] = React.useState('-20%')
     const [visible, setVisible] = React.useState(false)
 
 
     const toggleMenu = () => {
-        if (xPosition == "-150%") {
-            setX('-50%')
+        if (xPosition == "-120%") {
+            setX('-20%')
             setVisible(false)
         } else {
-            setX('-150%')
+            setX('-120%')
             setVisible(true)
         }
 
@@ -71,7 +72,7 @@ export const Sidebar = () => {
 
     // expansion animation on reload
     React.useEffect(() => {
-        setX('-150%')
+        setX('-120%')
         setVisible(true)
     }, []);
 
