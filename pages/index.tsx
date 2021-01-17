@@ -7,9 +7,10 @@ import Developer from '../components/developer/developer'
 import Engineer from '../components/engineer/engineer'
 import Adventurer from '../components/adventurer'
 import { FaRegCopyright } from 'react-icons/fa'
+
 const Page = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
 `
 const FooterText = styled.p`
@@ -31,7 +32,7 @@ const Home = () => {
         </Page>
         <Developer />
         <Engineer />
-        <div style={{ position: 'relative', marginTop: '120vh', marginBottom: '32px' }}>
+        <div style={{ position: 'relative', marginTop: '120vh', marginBottom: '32px', width: '100%' }}>
           <Adventurer />
         </div>
 

@@ -46,21 +46,21 @@ const Row = styled.div`
 `
 
 const SurelightRow = styled(Row)`
-    width: 50vw;
+    width: 50%;
     height: 70vh;
     top: 30vh;
 `
 
 const ChipRow = styled(Row)`
-    width: 50vw;
-    left: 50vw;
+    width: 50%;
+    left: 50%;
     height: 35vh;
     top: 30vh;
 `
 
 const RocketRow = styled(Row)`
-    width: 40vw;
-    left: 60vw;
+    width: 40%;
+    left: 60%;
     height: 30vh;
     top: 70vh;
 `
@@ -106,7 +106,7 @@ const JobsColumn = styled.div`
 
 const Engineer = () => {
     return (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', width: '100%' }}>
             <BackgroundText text="Engineer" />
             <SurelightRow>
                 <SurelightLabel label="Safest Bike light" />
@@ -120,6 +120,7 @@ const Engineer = () => {
                 <RocketStyled />
                 <HighlightLabel label="Gimballing rocket motor design" />
             </RocketRow>
+
             <StudentContainer>
                 <MajorMinorColumn>
                     <SmallPrinceton />

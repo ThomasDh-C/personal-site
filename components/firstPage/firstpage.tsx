@@ -5,6 +5,7 @@ import Typical from 'react-typical'
 import headshot from '../../public/face.png'
 import { Link } from "react-scroll";
 import { FaPaperPlane } from 'react-icons/fa';
+import Sidebar from '../sidebar/sidebar'
 
 const Name = styled.h1`
   margin-bottom: 0px;
@@ -20,12 +21,12 @@ const FirstCentreText = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: auto 28vw
+  margin: auto 28%;
 `
 
 const Headshot = styled.img`
   position: absolute;
-  width: 40vw;
+  width: 40%;
   bottom: 0;
   right: 0;
 `
@@ -58,6 +59,7 @@ const SendEmail = styled.button`
 const FirstPage = () => {
   return (
     <>
+      {/* <Sidebar width="-100%" height="100%" /> */}
       <FirstCentreText>
         <Name className={styles.inside}>Thomas</Name>
         <Name ><span className={styles.inside}>Dhome-Casanova</span></Name>
@@ -74,7 +76,9 @@ const FirstPage = () => {
           spy={true}
           smooth={true}
           duration={500}
-        ><LearnMore>Learn More</LearnMore></Link>
+        >
+          <LearnMore>Learn More</LearnMore>
+        </Link>
       </FirstCentreText>
       <SendEmail>
         <a href='mailto:tmd4@princeton.edu'><FaPaperPlane color="#17141d" size="20px" /></a>

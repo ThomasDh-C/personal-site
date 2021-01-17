@@ -5,7 +5,7 @@ import BackgroundText from './backgroundtext'
 
 const CustomBasic = styled(BasicThing)`
   margin-top: 10vw;
-  width: 100vw;
+  width: 100%;
   z-index:-99;
 `
 
@@ -20,22 +20,22 @@ const FrostedDiv = styled.div`
 
 const TennisContainer = styled(FrostedDiv)`
   top: 23vw;
-  left: 20vw;
+  left: 20%;
   
 `
 const ClimberContainer = styled(FrostedDiv)`
   top: 35vw;
-  left: 40vw;
+  left: 40%;
 `
 
 const BackpackerContainer = styled(FrostedDiv)`
   top: 54vw;
-  right: 10vw;
+  right: 10%;
 `
 
 const ChefContainer = styled(FrostedDiv)`
   top: 60vw;
-  left: 10vw;
+  left: 10%;
 `
 
 const Labels = styled.h2`
@@ -45,7 +45,7 @@ const Labels = styled.h2`
 
 const Adventurer = () => {
   return (
-    < >
+    <>
       <BackgroundText text="Adventurer" />
       <CustomBasic />
       <TennisContainer>
