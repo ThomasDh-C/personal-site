@@ -93,7 +93,7 @@ export const Sidebar = () => {
             <Content visible={visible}>
                 <LinkBox>
                     <GoMarkGithub color="white" size="2em" style={{ paddingBottom: "4px" }} />
-                    <a href='https://github.com/ThomasDh-C?tab=repositories'>
+                    <a href='https://github.com/ThomasDh-C'>
                         <HighlightLabel label="GitHub" />
                     </a>
                 </LinkBox>
@@ -108,7 +108,7 @@ export const Sidebar = () => {
 
                 <LinkBox>
                     <SmallPrinceton />
-                    <a href='mailto:tmd4@princeton.edu'>
+                    <a href='https://tbp.princeton.edu/membership/officers/'>
                         <HighlightLabel label="Princeton '23" /></a>
                 </LinkBox>
             </Content>

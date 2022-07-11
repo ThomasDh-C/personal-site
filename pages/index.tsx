@@ -24,7 +24,7 @@ const Home = () => {
     <div >
       <Head>
         <title>Thomas DC | Home</title>
-        <meta name="Home page" content="Thomas Dhome-Casanova's portfolio website"/>
+        <meta name="Home page" content="Thomas Dhome-Casanova's portfolio website" />
         <link rel="icon" href="/PUwhite.svg" />
       </Head>
 
@@ -41,7 +41,7 @@ const Home = () => {
       </main>
 
       <footer className={styles.footer}>
-        <FooterText><FaRegCopyright style={{ marginBottom: '-.2em', marginRight: '8px' }} /> Thomas Dhome-Casanova 2020</FooterText>
+        <FooterText><FaRegCopyright style={{ marginBottom: '-.2em', marginRight: '8px' }} /> Thomas Dhome-Casanova 2022</FooterText>
       </footer>
     </div >
   )

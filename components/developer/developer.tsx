@@ -6,7 +6,7 @@ import { FaChevronRight } from 'react-icons/fa';
 import { GoRuby, GoMarkGithub, GoDeviceDesktop } from 'react-icons/go'
 import punc from '../../public/punc.png'
 import surelight from '../../public/surelight.png'
-import mlplanner from '../../public/MLplanner.png'
+import dormdesigner from '../../public/dormdesigner.png'
 
 
 const RightArrow = styled(FaChevronRight)`
@@ -44,12 +44,14 @@ const Developer = () => {
       <section className={styles.cardlist}>
         <article className={styles.card}>
           <header className={styles.cardheader}>
-            <p>January 2020</p>
-            <h2>Machine Learning App for Courses</h2>
+            <p>July 2021</p>
+            <h2><a href="https://github.com/ThomasDh-C/Dorm-Designer">Dorm room designer app</a></h2>
           </header>
-          <Image src={mlplanner} />
+          <Image src={dormdesigner} />
           <div className={styles.tags}>
-            <a>python</a>
+            <a href='https://nextjs.org/'>next.js</a>
+            <a href='https://konvajs.org/'>konva.js</a>
+            <a href='https://dexie.org/'>dexie.js</a>
           </div>
         </article>
 
@@ -62,9 +64,9 @@ const Developer = () => {
             <Image src={surelight} />
           </div>
           <div className={styles.tags}>
-            <a >C++</a>
-            <a >C</a>
-            <a >Wordpress</a>
+            <a href='https://docs.microsoft.com/en-us/cpp/cpp/'>C++</a>
+            <a href='https://docs.microsoft.com/en-us/cpp/c-language/c-language-reference'>C</a>
+            <a href='https://wordpress.com/'>Wordpress</a>
           </div>
         </article>
 
@@ -77,16 +79,16 @@ const Developer = () => {
             <Image src={punc} />
           </div>
           <div className={styles.tags}>
-            <a>typescript</a>
-            <a>reactjs</a>
-            <a>verilog</a>
+            <a href='https://www.typescriptlang.org/docs/'>typescript</a>
+            <a href='https://reactjs.org/'>reactjs</a>
+            <a href='https://verilogguide.readthedocs.io/en/latest/'>verilog</a>
           </div>
         </article>
       </section>
 
       <StatsBox>
         <StatsRow><GoDeviceDesktop color="white" size="2em" /><StatsHeader>10,000 views</StatsHeader></StatsRow>
-        <StatsRow><GoMarkGithub color="white" size="2em" /><StatsHeader>332 commits</StatsHeader></StatsRow>
+        <StatsRow><GoMarkGithub color="white" size="2em" /><StatsHeader>867 commits</StatsHeader></StatsRow>
         <StatsRow><GoRuby color="white" size="2em" /><StatsHeader>Arctic Vault Contributor</StatsHeader></StatsRow>
       </StatsBox>
 
