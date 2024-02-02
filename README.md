@@ -1,4 +1,4 @@
-The personal website of Thomas Dhome-Casanova using Next JS (based on React JS). 
+The personal website of Thomas Dhome-Casanova using Next JS 
 
 ## Modifying locally
 
