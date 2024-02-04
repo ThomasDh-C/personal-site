@@ -9,6 +9,16 @@ module.exports = {
         screens: {
           'xs': '475px',
         },
+        colors: {
+          'ochre': '#f9f4e6',
+        },
+        typography: (theme) => ({
+          DEFAULT: {
+            css: {
+              maxWidth: 'none',
+            },
+          },
+        }),
       },
     },
     variants: {},

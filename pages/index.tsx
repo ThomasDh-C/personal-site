@@ -3,6 +3,7 @@ import Layout from '@/components/Layout';
 import Card from '@/components/Card';
 import IconButton from '@/components/IconButton';
 import CustomListItem from '@/components/CustomListItem';
+import SvgArrow from '@/components/SvgArrow';
 
 
 
@@ -20,7 +21,7 @@ const Home = () => {
             </div>
             <div>
               <a href="#" className="underline uppercase mr-4">Projects</a>
-              <a href="#" className="underline uppercase">Research Interests</a>
+              <a href="/researchinterests" className="underline uppercase">Research Interests</a>
             </div>
           </nav>
           <section className="mx-auto py-10 flex gap-4 flex-col lg:flex-row">
@@ -91,7 +92,7 @@ const Home = () => {
             </div>
           </section>
           <div className="flex flex-col justify-center items-center">
-            <img src='/arrow.svg' alt="Spiral downward arrow" className='w-20' />
+            <SvgArrow />
             <div className="prose text-center">
               <p className='my-1'>Interested by these projects?</p>
               <p className="my-1">Want to learn more?</p>
