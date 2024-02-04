@@ -1,8 +1,5 @@
 import getConfig from 'next/config';
 import Layout from '@/components/Layout';
-import Card from '@/components/Card';
-import IconButton from '@/components/IconButton';
-import CustomListItem from '@/components/SvgArrow';
 import SvgArrow from '@/components/SvgArrow';
 
 
@@ -17,9 +14,9 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <nav className="flex items-center justify-between">
             <div className="prose">
-              <h1>Thomas Dhome-Casanova</h1>
+              <a href="/" className="text-4xl font-bold no-underline">Thomas Dhome-Casanova</a>
             </div>
-            <div>
+            <div className="flex">
               <a href="#" className="underline uppercase mr-4">Projects</a>
               <a href="/researchinterests" className="underline uppercase">Research Interests</a>
             </div>
@@ -70,9 +67,8 @@ const Home = () => {
               </div>
             </div>
           </section>
-          
+
           <div className="flex flex-col justify-center items-center">
-            {/* <img src='/arrow.svg' alt="Spiral downward arrow" className='w-20' /> */}
             <SvgArrow />
             <div className="prose text-center">
               <p className='my-1'>Working on something related?</p>

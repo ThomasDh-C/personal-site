@@ -4,7 +4,6 @@ import React, { ReactNode } from 'react';
 const SvgArrow = () => {
     const duration = ".7s";
     const cubicBezier = "0.17 0.67 0.83 0.67";
-    // const cubicBezier = ".23 .66 .8 .7"; // more linear ease
     const pathThickness = "8.5px";
     const arrowheadScale = 2;
     return (
@@ -16,7 +15,7 @@ const SvgArrow = () => {
                     fill='none'
                     stroke='black'
                     strokeWidth={pathThickness}
-                    stroke-dasharray='443.13'
+                    strokeDasharray='443.13'
                     d="M169.9 57.7c0 32.1-12.3 152.6-69.7 152.6-17.1 0-42.5-5.5-42.5-26.5 0-20 26-20.5 43.2-20.5 49.8 0 64.8 58.4 68.1 120"
                 >
                     <animate

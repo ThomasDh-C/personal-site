@@ -17,9 +17,9 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <nav className="flex items-center justify-between">
             <div className="prose">
-              <h1>Thomas Dhome-Casanova</h1>
+              <a href="/" className="text-4xl font-bold no-underline">Thomas Dhome-Casanova</a>
             </div>
-            <div>
+            <div className="flex">
               <a href="#" className="underline uppercase mr-4">Projects</a>
               <a href="/researchinterests" className="underline uppercase">Research Interests</a>
             </div>
