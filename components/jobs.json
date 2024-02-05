@@ -1,0 +1,177 @@
+{
+    "items": [
+        {
+            "type": "project",
+            "title": "Coffee ordering copilot",
+            "start": "September 2023",
+            "end": "Present",
+            "location": "San Francisco, California",
+            "skills": [
+                "Copilot Studio",
+                "React",
+                "Teams",
+                "Azure"
+            ],
+            "keypoints": [
+                "Chat on Teams and instantly order over Azure cloud to barista at work with shortest wait"
+            ]
+        }
+        ,
+        {
+            "type": "work",
+            "title": "Software Engineer at Microsoft",
+            "start": "July 2023",
+            "end": "Present",
+            "present": true,
+            "location": "San Francisco, California",
+            "skills": [
+                "C#",
+                "Python",
+                "Machine Learning",
+                "LLM"
+            ],
+            "keypoints": [
+                "Algorithmic optimisation of infrastructure to increase resiliency to failure and decrease latency",
+                "Leading redesign of 10,000 line internal solution and co-leading new external library for next generation of Microsoft Specialised",
+                "Developing LLM chat app for searching internal docs + using machine learning to predict when machines will fail and why"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer Intern at Microsoft",
+            "start": "May 2022",
+            "end": "August 2022",
+            "present": false,
+            "location": "Redmond, Washington",
+            "skills": [
+                ".NET",
+                "C#"
+            ],
+            "keypoints": [
+                "Developed a novel compressor using .NET and C# to compress the hundreds of petabytes of PDFs in OneDrive and SharePoint by 19%"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "OA Leader and TA at Princeton University",
+            "start": "Spring 2020",
+            "end": "Fall 2022",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Verilog",
+                "Java"
+            ],
+            "keypoints": [
+                "Led 4.5 day orientation backpacking trip for 10 incoming students",
+                "Spearheaded the development of 4 processor debugging [web apps](https://github.com/ThomasDh-C/VerilogPUNCViewer) for the ELE Contemporary Logic Design course with around 100 students",
+                "Co-Lead TA for ELE Contemporary Logic Design course as second year TA",
+                "Graded weekly assignments for introductory computer science class in Java",
+                "Created a network of 12 3D printers for Princeton School of Architecture to allow graduate students to rapidly prototype"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Machine Learning Intern at Elsevier",
+            "start": "May 2021",
+            "end": "August 2021",
+            "present": false,
+            "location": "London, UK",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "NLP"
+            ],
+            "keypoints": [
+                "Developed machine learning algorithms to classify papers into the UN's Sustainable Development Goals",
+                "Increased recall by 7x while maintaining the precision of the previous best method"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer Intern at Concentra",
+            "start": "June 2020",
+            "end": "August 2020",
+            "present": false,
+            "location": "Charleston, SC",
+            "skills": [
+                "React",
+                "Three.js",
+                "TypeScript"
+            ],
+            "keypoints": [
+                "Streamlined the home page for HR web app using TypeScript and React JS to allow for client branding as well as make their onboarding progress clear",
+                "Built a proof of concept web app to show an organization's HR relationships in 3D and demonstrate the power of our offering at initial sales meetings"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Co-founder at SureLight Tech",
+            "start": "Fall 2017",
+            "end": "Fall 2020",
+            "present": false,
+            "location": "London, UK",
+            "skills":[
+                "Alibaba",
+                "Fusion360",
+                "KiCad"],
+            "keypoints": [
+                "Co-founded a smart bike light company and won the international JA Europe entrepreneurship competition out of 340,000 students",
+                "Ran a Kickstarter for our latest patent-pending product - won 'Project We Love' award"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer Intern at Splitit",
+            "start": "July 2019",
+            "end": "August 2019",
+            "present": false,
+            "location": "Tel Aviv, Israel",
+            "skills": [
+                "Python",
+                "Google Workspace API"
+            ],
+            "keypoints": [
+                "Wrote Python programs to analyze web technologies and other site data",
+                "Optimized program to run on multiple machines simultaneously for over 20,000 leads. My solution allowed 2 other interns to work on other tasks"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Research Intern at SiMMS Lab (ICL)",
+            "location": "London, UK",
+            "start": "Fall 2018",
+            "end": "Summer 2019",
+            "present": false,
+            "skills": [
+                "Python",
+                "C#",
+                "Unity"
+            ],
+            "keypoints": [
+                "Worked every Wednesday afternoon of senior year in high school",
+                "Co-authored a soft-haptics paper to train doctors using Microsoft HoloLens and HTC Vive. Programs written in Python and C#"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Co-founder at Firefly Racing",
+            "start": "Fall 2016",
+            "end": "Spring 2019",
+            "present": false,
+            "location": "London, UK",
+            "skills": [
+                "Solidworks",
+                "C"
+            ],
+            "keypoints": [
+                "Co-founded a full-size electric racing car team and won the international IET Design Engineering Award against several universities",
+                "Led the design of 3 cars and grew the team to over 50 students"
+            ]
+        }
+
+    ]
+}
