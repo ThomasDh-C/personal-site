@@ -3,7 +3,8 @@ import Layout from '@/components/Layout';
 import Card from '@/components/Card';
 import IconButton from '@/components/IconButton';
 import CustomListItem from '@/components/CustomListItem';
-import SvgArrow from '@/components/SvgArrow';
+import SvgArrow from '@/components/atoms/SvgArrow';
+import Navbar from '@/components/Navbar';
 
 
 
@@ -15,18 +16,10 @@ const Home = () => {
     <Layout>
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <nav className="flex items-center justify-between">
-            <div className="prose">
-              <a href="/" className="text-4xl font-bold no-underline">Thomas Dhome-Casanova</a>
-            </div>
-            <div className="flex">
-              <a href="#" className="underline uppercase mr-4">Projects</a>
-              <a href="/researchinterests" className="underline uppercase">Research Interests</a>
-            </div>
-          </nav>
+          <Navbar />
           <section className="mx-auto py-10 flex gap-4 flex-col lg:flex-row">
             <div className="rounded-2xl overflow-hidden lg:w-1/2">
-              <img src="/headshot.jpg" alt="Headshot" className="rounded-2xl" />
+              <img src="/headshot.png" alt="Headshot" className="rounded-2xl" />
             </div>
             <div className="mt-auto">
               <div className="pb-2">
@@ -97,9 +90,9 @@ const Home = () => {
               <p className='my-1'>Interested by these projects?</p>
               <p className="my-1">Want to learn more?</p>
             </div>
-            <button className="rounded-lg p-3 shadow-md bg-white hover:shadow-lg focus:outline-none focus:ring focus:border-blue-300 flex gap-2 items-center">
-              <p>Email me</p>
-              <img src="/mail.png" alt="Email symbol" className="w-5 h-5" />
+            <button className="rounded-lg py-3 px-5 shadow-md bg-black hover:shadow-lg shadow-slate-300 focus:outline-none focus:ring focus:border-blue-300 flex gap-2 items-center">
+              <p className="text-white">Email me</p>
+              <img src="/mailinverted.png" alt="Email symbol" className="w-5 h-5" />
             </button>
           </div>
         </div>

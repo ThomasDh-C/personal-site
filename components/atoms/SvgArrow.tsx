@@ -2,7 +2,8 @@ import React, { ReactNode } from 'react';
 
 
 const SvgArrow = () => {
-    const duration = ".7s";
+    const startDelay = 0.1;
+    const animLength = .7;
     const cubicBezier = "0.17 0.67 0.83 0.67";
     const pathThickness = "8.5px";
     const arrowheadScale = 2;
@@ -20,16 +21,16 @@ const SvgArrow = () => {
                 >
                     <animate
                         attributeName="stroke-dashoffset"
-                        values="443.13;0"
-                        dur={duration}
+                        values="443.13;443.13;0"
+                        dur={`${startDelay + animLength}s`}
                         begin="0s"
-                        calcMode="spline" keyTimes="0;1" keySplines={cubicBezier}
+                        calcMode="spline" keyTimes={`0;${startDelay / (startDelay + animLength)};1`} keySplines={`${cubicBezier};${cubicBezier}`}
                         repeatCount="1" />
                 </path>
                 <animateMotion
                     xlinkHref="#arrowhead"
-                    dur={duration}
-                    begin="0s"
+                    dur={`${animLength}s`}
+                    begin={`${startDelay}s`}
                     fill="freeze"
                     calcMode="spline" keyTimes="0;1" keySplines={cubicBezier}
                     repeatCount="1"

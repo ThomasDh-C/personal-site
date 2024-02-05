@@ -1,12 +1,13 @@
 import React from 'react';
-
-const Navbar: React.FC = () => {
+const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between bg-gray-800 py-4 px-6">
-            <div className="text-white font-bold text-lg">Thomas Dhome-Casanova</div>
-            <div className="flex items-center space-x-4">
-                <a href="#" className="text-white uppercase hover:text-gray-300 underline">Projects</a>
-                <a href="#" className="text-white uppercase hover:text-gray-300 underline">Research Interests</a>
+        <nav className="flex items-center justify-between">
+            <div className="prose">
+                <a href="/" className="text-4xl font-bold no-underline">Thomas Dhome-Casanova</a>
+            </div>
+            <div className="flex">
+                <a href="/experience" className="underline uppercase mr-4">Experience</a>
+                <a href="/researchinterests" className="underline uppercase">Research Interests</a>
             </div>
         </nav>
     );
