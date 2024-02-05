@@ -1,0 +1,338 @@
+{
+    "items": [
+        {
+            "type": "project",
+            "title": "Coffee ordering copilot",
+            "start": "September 2023",
+            "end": "Present",
+            "present": true,
+            "location": "San Francisco, California",
+            "skills": [
+                "Copilot Studio",
+                "React",
+                "Teams",
+                "WebSockets",
+                "Azure"
+            ],
+            "keypoints": [
+                "Chat on Teams and instantly order over Azure cloud to barista at work with shortest wait",
+                "Teams and back-end connected through http, barista web order view and back-end conected through WebSockets for real time updates",
+                "Won the Microsoft Hackahon's Worldwide Special Mention Award and the Bay Area Employee Quality of Life Award"
+            ]
+        },
+        {
+            "type": "project",
+            "title": "AI to accelerator compiler",
+            "start": "September 2022",
+            "end": "May 2023",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Python",
+                "C++",
+                "Rust",
+                "TVM",
+                "Glenside",
+                "ILA"
+            ],
+            "keypoints": [
+                "Wrote a compiler for supported neural network layers to automatically be offloaded to the NVIDIA Deep Learning Accelerator (NVDLA). Additionally, I leveraged the Glenside and ILA projects to automatically search the space of semantically identical neural networks to offload more operations to this accelerator",
+                "Won the Princeton Charles Ira Young Memorial Tablet and Medal for this research work (completed as part of my undergraduate thesis)"
+            ],
+            "link": "https://github.com/ThomasDh-C/ECE_Senior_Thesis_22_ThomasDC"
+        },
+        {
+            "type": "project",
+            "title": "AI truck algorithms",
+            "start": "January 2023",
+            "end": "May 2023",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Python",
+                "ROS"
+            ],
+            "keypoints": [
+                "Coded trucks to navigate, whilst following road rules and avoiding static or dynamic obstacles",
+                "Won the design award for our algorithm achieving the most package pickups"
+            ],
+            "link": "https://github.com/ThomasDh-C/ECE346_Group15"
+        },
+        {
+            "type": "project",
+            "title": "ViewFormer-Faces",
+            "start": "January 2023",
+            "end": "May 2023",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Python",
+                "Transformers",
+                "PyTorch"
+            ],
+            "keypoints": [
+                "Used a transformer approach to render a face at any arbitrary angle to the camera, given previous context angles"
+                ],
+            "link": "https://github.com/ThomasDh-C/viewformer-faces"
+        },
+        {
+            "type": "project",
+            "title": "ML Water Level",
+            "start": "September 2022",
+            "end": "December 2022",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Python",
+                "Tensorflow"
+            ],
+            "keypoints": [
+                "Created a neural network predict the depth of a river 14 days in the future given 49 days of historical depth, precipitation and temperature data"
+            ],
+            "link": "https://github.com/ThomasDh-C/MLWaterLevel"
+        },
+        {
+            "type": "project",
+            "title": "Autonomous person tracking RC car",
+            "start": "February 2022",
+            "end": "May 2022",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Hardware",
+                "Python",
+                "React"
+            ],
+            "keypoints": [
+                "Wired and programmed a remote control car to autonomously follow a person using a custom Ultra-Wideband (UWB) positioning system we created in the lab",
+                "Developed a custom webapp to graph in real time the wirelessly received custom car data packets as they were logged to the Serial Monitor"
+            ],
+            "link": "https://github.com/kevinkboat/CAR-LAB-2022"
+        },
+        {
+            "type": "project",
+            "title": "Autonomous obstacle avoidance drone",
+            "start": "September 2021",
+            "end": "December 2021",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Hardware",
+                "Python",
+                "OpenCV",
+                "Tensorflow"
+            ],
+            "keypoints": [
+                "Developed PID and ILQR controllers for the drone as well as an obstacle avoidance algorithm using OpenCV and Tensorflow so the drone could autonomously navigate through a series of poles"
+            ],
+            "link": "https://github.com/ThomasDh-C/mae345_final_project"
+        },
+        {
+            "type": "project",
+            "title": "Dorm Designer",
+            "start": "January 2021",
+            "end": "July 2021",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "React",
+                "Next.js",
+                "KonvaJS",
+                "DexieJS"
+            ],
+            "keypoints": [
+                "Created a website for students to virtually trial furniture arrangements in their dorm and share their designs with their roommates. All furniture is automatically scaled to the right size and the amount of furniture left to add is also shown."
+            ],
+            "link": "https://github.com/ThomasDh-C/Dorm-Designer"
+        },
+        {
+            "type": "project",
+            "title": "TAIlor Swift",
+            "start": "April 2021",
+            "end": "May 2021",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "Python",
+                "GPT3"
+            ],
+            "keypoints": [
+                "Using GPT3 and analysis of previous Taylor Swift songs generated melody and lyrics for a song that algorithmically ought to be succesful"
+            ],
+            "link": "https://github.com/ThomasDh-C/ml-music"
+        },
+        {
+            "type": "project",
+            "title": "Verilog PUNC Viewer",
+            "start": "August 2020",
+            "end": "December 2020",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "React",
+                "Next.js"
+            ],
+            "keypoints": [
+                "Whilst a TA for the ELE Contemporary Logic Design course during the first year of Covid, I created a series of web apps to help students debug their Verilog code",
+                "The final project whose debugger I have linked was to design a chip. The webapp allowed them analyse their test files and check memory and register values"
+            ],
+            "link": "https://github.com/ThomasDh-C/VerilogPUNCViewer"
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer at Microsoft",
+            "start": "July 2023",
+            "end": "Present",
+            "present": true,
+            "location": "San Francisco, California",
+            "skills": [
+                "C#",
+                "Python",
+                "Machine Learning",
+                "LLM"
+            ],
+            "keypoints": [
+                "Algorithmic optimisation of infrastructure to increase resiliency to failure and decrease latency",
+                "Leading redesign of 10,000 line internal solution and co-leading new external library for next generation of Microsoft Specialised",
+                "Developing LLM chat app for searching internal docs + using machine learning to predict when machines will fail and why"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer Intern at Microsoft",
+            "start": "May 2022",
+            "end": "August 2022",
+            "present": false,
+            "location": "Redmond, Washington",
+            "skills": [
+                ".NET",
+                "C#"
+            ],
+            "keypoints": [
+                "Developed a novel compressor using .NET and C# to compress the hundreds of petabytes of PDFs in OneDrive and SharePoint by 19%"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "OA Leader and TA at Princeton University",
+            "start": "Spring 2020",
+            "end": "Fall 2022",
+            "present": false,
+            "location": "Princeton, NJ",
+            "skills": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Verilog",
+                "Java"
+            ],
+            "keypoints": [
+                "Led 4.5 day orientation backpacking trip for 10 incoming students",
+                "Spearheaded the development of 4 processor debugging [web apps](https://github.com/ThomasDh-C/VerilogPUNCViewer) for the ELE Contemporary Logic Design course with around 100 students",
+                "Co-Lead TA for ELE Contemporary Logic Design course as second year TA",
+                "Graded weekly assignments for introductory computer science class in Java",
+                "Created a network of 12 3D printers for Princeton School of Architecture to allow graduate students to rapidly prototype"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Machine Learning Intern at Elsevier",
+            "start": "May 2021",
+            "end": "August 2021",
+            "present": false,
+            "location": "London, UK",
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "NLP"
+            ],
+            "keypoints": [
+                "Developed machine learning algorithms to classify papers into the UN's Sustainable Development Goals",
+                "Increased recall by 7x while maintaining the precision of the previous best method"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer Intern at Concentra",
+            "start": "June 2020",
+            "end": "August 2020",
+            "present": false,
+            "location": "Charleston, SC",
+            "skills": [
+                "React",
+                "Three.js",
+                "TypeScript"
+            ],
+            "keypoints": [
+                "Streamlined the home page for HR web app using TypeScript and React JS to allow for client branding as well as make their onboarding progress clear",
+                "Built a proof of concept web app to show an organization's HR relationships in 3D and demonstrate the power of our offering at initial sales meetings"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Co-founder at SureLight Tech",
+            "start": "Fall 2017",
+            "end": "Fall 2020",
+            "present": false,
+            "location": "London, UK",
+            "skills":[
+                "Alibaba",
+                "Fusion360",
+                "KiCad"],
+            "keypoints": [
+                "Co-founded a smart bike light company and won the international JA Europe entrepreneurship competition out of 340,000 students",
+                "Ran a Kickstarter for our latest patent-pending product - won 'Project We Love' award"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Software Engineer Intern at Splitit",
+            "start": "July 2019",
+            "end": "August 2019",
+            "present": false,
+            "location": "Tel Aviv, Israel",
+            "skills": [
+                "Python",
+                "Google Workspace API"
+            ],
+            "keypoints": [
+                "Wrote Python programs to analyze web technologies and other site data",
+                "Optimized program to run on multiple machines simultaneously for over 20,000 leads. My solution allowed 2 other interns to work on other tasks"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Research Intern at SiMMS Lab (ICL)",
+            "location": "London, UK",
+            "start": "Fall 2018",
+            "end": "Summer 2019",
+            "present": false,
+            "skills": [
+                "Python",
+                "C#",
+                "Unity"
+            ],
+            "keypoints": [
+                "Worked every Wednesday afternoon of senior year in high school",
+                "Co-authored a soft-haptics paper to train doctors using Microsoft HoloLens and HTC Vive. Programs written in Python and C#"
+            ]
+        },
+        {
+            "type": "work",
+            "title": "Co-founder at Firefly Racing",
+            "start": "Fall 2016",
+            "end": "Spring 2019",
+            "present": false,
+            "location": "London, UK",
+            "skills": [
+                "Solidworks",
+                "C"
+            ],
+            "keypoints": [
+                "Co-founded a full-size electric racing car team and won the international IET Design Engineering Award against several universities",
+                "Led the design of 3 cars and grew the team to over 50 students"
+            ]
+        }
+
+    ]
+}
