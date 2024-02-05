@@ -4,7 +4,7 @@ import SvgArrow from '@/components/atoms/SvgArrow';
 import Navbar from '@/components/Navbar';
 import Skill from '@/components/atoms/Skill';
 import Location from '@/components/Location';
-import jobAndProjectData from 'components/jobs.json';
+import jobAndProjectData from 'components/experience.json';
 import MarkdownListItem from '@/components/atoms/MarkdownListItem';
 import SvgMap from '@/components/atoms/SvgMap';
 import { useState } from 'react';
@@ -41,7 +41,17 @@ const Experience = () => {
                 return (
                   <div key={`${showProjects ? 'projects' : 'job'}_${j_idx}`} className='pb-6'>
                     <div className="flex flex-wrap justify-between mb-2">
-                      <h3 className='my-0'>{data.title}</h3>
+                      <div className='flex gap-1 items-center'>
+                        <h3 className='my-0'>{data.title}</h3>
+                        {data.link && (
+                          <>
+                            <img src="/codeslashes.svg" alt="Code link symbol" className="h-4 my-0" />
+                            <a href={data.link} target="_blank" rel="noopener noreferrer">
+                              <h4 className="text-gray-700 my-0">Code</h4>
+                            </a>
+                          </>
+                        )}
+                      </div>
                       <h4 className='my-0 text-gray-700'>{data.present ? `${data.start} - ${months[date.getMonth()]} ${date.getFullYear()} (present)` : `${data.start} - ${data.end}`} </h4>
                     </div>
                     <div className="flex justify-between gap-2 mb-4">
