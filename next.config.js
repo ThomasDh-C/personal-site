@@ -7,8 +7,8 @@ module.exports = {
             ? 'http://localhost:3000'
             : 'https://thomasdhomecasanova.vercel.app',
         title: 'Thomas Dhome-Casanova - Portfolio',
-        description: 'Research and Creations of Thomas Dhome-Casanova',
-        socialPreview: '/images/preview.png',
+        description: 'Experience and Research Interests of Thomas Dhome-Casanova',
+        socialPreview: '/public/headshot.png',
       },
     },
     swcMinify: true,
