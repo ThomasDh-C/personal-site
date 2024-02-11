@@ -25,9 +25,9 @@ const SvgMap = () => {
                             calcMode="spline" keyTimes={`0;${timingsArray[0]};${timingsArray[1]};1`} keySplines={tripleCubicBezier}
                             repeatCount="1" />
                     </path>
-                    <path id="isr_uk" d="M1389.83,615.403C1493.61,648.917 1599.95,713.88 1703.73,852.038"
-                        fill='none' stroke='black' strokeWidth={pathThickness} strokeDasharray='399.72' >
-                        <animate attributeName="stroke-dashoffset" values="-399.72;-399.72;0;0" dur={`${startDelay + animLength}s`}
+                    <path id="isr_uk" d="M1703.73,852.038C1636.6,754.184 1505.32,645.911 1389.83,615.403"
+                        fill='none' stroke='black' strokeWidth={pathThickness} strokeDasharray='400.00' >
+                        <animate attributeName="stroke-dashoffset" values="400.00;400.00;0;0" dur={`${startDelay + animLength}s`}
                             calcMode="spline" keyTimes={`0;${timingsArray[1]};${timingsArray[2]};1`} keySplines={tripleCubicBezier}
                             repeatCount="1" />
                     </path>

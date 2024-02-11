@@ -22,9 +22,9 @@ const Home = () => {
           </div>
           <div className="mt-auto">
             <div className="pb-2">
-              <IconButton imageSrc="/linkedin.png" imageAlt="LinkedIn logo" />
-              <IconButton imageSrc="/github.png" imageAlt="GitHub logo" />
-              <IconButton imageSrc="/mail.png" imageAlt="Email symbol" />
+              <IconButton imageSrc="/linkedin.png" imageAlt="LinkedIn logo" buttonUrl="https://github.com/ThomasDh-C" />
+              <IconButton imageSrc="/github.png" imageAlt="GitHub logo" buttonUrl="https://www.linkedin.com/in/thomas-dhome-casanova" />
+              <IconButton imageSrc="/mail.png" imageAlt="Email symbol" buttonUrl="mailto:thomasdhca@gmail.com" />
             </div>
             <div className="flex-col gap-1">
               <CustomListItem imageSrc="/msft.png" imageAlt="Microsoft" text="Currently, a Software engineer @ Microsoft" />
@@ -35,7 +35,7 @@ const Home = () => {
                 </div>
                 <p className="text-left prose w-full">
                   Research under{' '}
-                  <a href="https://www.princeton.edu/~malik/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.princeton.edu/~sharad/" target="_blank" rel="noopener noreferrer">
                     Sharad Malik
                   </a>{' '}
                   at Princeton and{' '}
@@ -78,23 +78,24 @@ const Home = () => {
               <CustomListItem imageSrc="/msft.png" imageAlt="Microsoft" text="Hackathon Bay Area Employee Quality of Life Award" />
               <CustomListItem imageSrc="/msft.png" imageAlt="Microsoft" text="Hackathon Worldwide Special Mention Award" />
               <CustomListItem imageSrc="/princeton.png" imageAlt="Princeton" text="Princeton Charles Ira Young Memorial Tablet and Medal" />
-              <CustomListItem imageSrc="/princeton.png" imageAlt="Princeton" text="Tau Beta Pi engineering honor society, Sigma Xi research honor society and Phi Beta Kappa honor society" />
+              <CustomListItem imageSrc="/princeton.png" imageAlt="Princeton" text="Tau Beta Pi engineering honor society (President), Sigma Xi research honor society and Phi Beta Kappa honor society" />
               <CustomListItem imageSrc="/kickstarter.png" imageAlt="Kickstarter" text="Project We Love from Kickstarter for SureLight the safest bike light" />
             </div>
           </div>
         </section>
         <div className="flex flex-col justify-center items-center">
           <SvgArrow />
-          <div className="prose text-center">
+          <div className="prose text-center mb-2">
             <p className='my-1'>Interested by these projects?</p>
             <p className="my-1">Want to learn more?</p>
           </div>
-          <button className="rounded-lg py-3 px-5 shadow-md bg-black hover:shadow-lg shadow-slate-300 focus:outline-none focus:ring focus:border-blue-300 flex gap-2 items-center">
-            <p className="text-white">Email me</p>
-            <img src="/mailinverted.png" alt="Email symbol" className="w-5 h-5" />
-          </button>
+          <a href="mailto:thomasdhca@gmail.com" target="_blank" rel="noopener noreferrer">
+            <button className="rounded-lg py-3 px-5 shadow-md bg-black hover:shadow-lg shadow-slate-300 focus:outline-none focus:ring focus:border-blue-300 flex gap-2 items-center">
+              <p className="text-white">Email me</p>
+              <img src="/mailinverted.png" alt="Email symbol" className="w-5 h-5" />
+            </button>
+          </a>
         </div>
-        <Footer />
       </div>
     </Layout>
   );
