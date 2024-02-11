@@ -74,18 +74,19 @@ const Experience = () => {
         </section>
         <div className="flex flex-col justify-center items-center">
           <SvgArrow />
-          <div className="prose text-center">
+          <div className="prose text-center mb-2">
             <p className='my-1'>Working on something related?</p>
             <p className="my-1">Want to partner?</p>
           </div>
-          <button className="rounded-lg py-3 px-5 shadow-md bg-black hover:shadow-lg shadow-slate-300 focus:outline-none focus:ring focus:border-blue-300 flex gap-2 items-center">
-            <p className="text-white">Email me</p>
-            <img src="/mailinverted.png" alt="Email symbol" className="w-5 h-5" />
-          </button>
+          <a href="mailto:thomasdhca@gmail.com" target="_blank" rel="noopener noreferrer">
+            <button className="rounded-lg py-3 px-5 shadow-md bg-black hover:shadow-lg shadow-slate-300 focus:outline-none focus:ring focus:border-blue-300 flex gap-2 items-center">
+              <p className="text-white">Email me</p>
+              <img src="/mailinverted.png" alt="Email symbol" className="w-5 h-5" />
+            </button>
+          </a>
         </div>
-        <Footer />
       </div>
-    </Layout>
+    </Layout >
   );
 };
 
