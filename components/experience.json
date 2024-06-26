@@ -2,10 +2,49 @@
     "items": [
         {
             "type": "project",
-            "title": "Coffee ordering copilot",
-            "start": "September 2023",
+            "title": "LlamaFS",
+            "start": "May 2024",
+            "end": "May 2024",
+            "present": false,
+            "location": "San Francisco, California",
+            "skills": [
+                "TypeScript",
+                "Python",
+                "Electron",
+                "LlamaIndex",
+                "FastAPI"
+            ],
+            "keypoints": [
+                "A self-organising file system powered by Llama 3 built at the Meta Hackathon",
+                "Over 500k Twitter impressions + front page of Hacker News + 4.4k stars on GitHub",
+                "Automatically renames and organizes the files in any folder and presents edits in an app"
+            ],
+            "link": "https://github.com/iyaja/llama-fs"
+        },
+        {
+            "type": "project",
+            "title": "Powerpoint chat-free copilot",
+            "start": "March 2024",
             "end": "Present",
             "present": true,
+            "location": "San Francisco, California",
+            "skills": [
+                "Powerpoint plugin API",
+                "Groq (Llama 3)",
+                "React"
+            ],
+            "keypoints": [
+                "LLM-powered assistant for Powerpoint predicts your next edits in real-time",
+                "Automatic file listener removes the need for a chat window to explain intent",
+                "AI suggestions can be accepted with a single click and chained together for rapid editing"
+            ]
+        },
+        {
+            "type": "project",
+            "title": "Coffee ordering copilot",
+            "start": "September 2023",
+            "end": "December 2023",
+            "present": false,
             "location": "San Francisco, California",
             "skills": [
                 "Copilot Studio",
